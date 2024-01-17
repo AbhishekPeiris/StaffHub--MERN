@@ -14,7 +14,7 @@ const Homescreen = () => {
 
   function filterBySearch() {
 
-    const tempstaff = duplicateallstaff.filter(allstaff => allstaff.name.toLowerCase().includes(searchkey.toLowerCase()));
+    const tempstaff = duplicateallstaff.filter(allstaff => allstaff.firstname.toLowerCase().includes(searchkey.toLowerCase()));
     setAllstaff(tempstaff);
    
 
