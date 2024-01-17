@@ -50,7 +50,6 @@ const Homescreen = () => {
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
           onChange={(e) => { setSearchkey(e.target.value) }} onKeyUp={filterBySearch}
         />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style={{ color: "white" }}>Search</button>
       </form>
 
       {loading ? (
