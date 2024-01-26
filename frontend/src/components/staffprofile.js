@@ -33,7 +33,7 @@ const Staffprofile = ({ staffmember }) => {
         } catch (error) {
 
             console.log(error);
-            Swal.fire(`Oops`, "Error with deleting staff member", 'success');
+            Swal.fire(`Oops`, "Error with deleting staff member", 'error');
             setLoading(false);
 
         }
